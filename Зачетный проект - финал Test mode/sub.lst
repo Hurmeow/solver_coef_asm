@@ -1,0 +1,99 @@
+Microsoft (R) Macro Assembler Version 6.14.8444		    06/09/21 08:05:08
+sub.asm							     Page 1 - 1
+
+
+
+Microsoft (R) Macro Assembler Version 6.14.8444		    06/09/21 08:05:08
+sub.asm							     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000006 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000048E Para	  Public  'CODE'	
+
+
+Procedures,  parameters and locals:
+
+                N a m e                 Type     Value    Attr
+
+Calc_Fsum_and_probabilities  . .	P Near	 0000014F _TEXT	Length= 0000007D Public STDCALL
+  Sum_Fsum . . . . . . . . . . .	L Near	 00000165 _TEXT	
+  sum_next . . . . . . . . . . .	L Near	 0000017B _TEXT	
+  Probabilities  . . . . . . . .	L Near	 00000186 _TEXT	
+  prop_next  . . . . . . . . . .	L Near	 000001A3 _TEXT	
+  Fi_border  . . . . . . . . . .	L Near	 000001B4 _TEXT	
+calc_Fi_and_accuracy . . . . . .	P Near	 000000A1 _TEXT	Length= 000000AE Public STDCALL
+  clear_Fi . . . . . . . . . . .	L Near	 000000B3 _TEXT	
+  pre_calc_Fi  . . . . . . . . .	L Near	 000000C3 _TEXT	
+  calc_Fi  . . . . . . . . . . .	L Near	 000000CC _TEXT	
+  overflow . . . . . . . . . . .	L Near	 000000FD _TEXT	
+  compare  . . . . . . . . . . .	L Near	 00000106 _TEXT	
+  F_bel_D  . . . . . . . . . . .	L Near	 00000111 _TEXT	
+  F_abo_D  . . . . . . . . . . .	L Near	 0000011C _TEXT	
+  next_calc_Fi . . . . . . . . .	L Near	 00000123 _TEXT	
+  final  . . . . . . . . . . . .	L Near	 0000012E _TEXT	
+  end_calc_Fi_and_accuracy . . .	L Near	 00000145 _TEXT	
+crossbreeding  . . . . . . . . .	P Near	 000002F8 _TEXT	Length= 000000BF Public STDCALL
+  loop_14  . . . . . . . . . . .	L Near	 00000321 _TEXT	
+  loop_15  . . . . . . . . . . .	L Near	 00000331 _TEXT	
+  loop_16  . . . . . . . . . . .	L Near	 0000033E _TEXT	
+  final_cross  . . . . . . . . .	L Near	 00000343 _TEXT	
+  loop_17  . . . . . . . . . . .	L Near	 00000350 _TEXT	
+formation_population . . . . . .	P Near	 000001CC _TEXT	Length= 00000049 Public STDCALL
+  loop_1 . . . . . . . . . . . .	L Near	 000001D9 _TEXT	
+  loop_2 . . . . . . . . . . . .	L Near	 000001E3 _TEXT	
+  loop_3 . . . . . . . . . . . .	L Near	 000001EB _TEXT	
+  loop_4 . . . . . . . . . . . .	L Near	 000001F2 _TEXT	
+  loop_5 . . . . . . . . . . . .	L Near	 00000202 _TEXT	
+  next_gi  . . . . . . . . . . .	L Near	 00000207 _TEXT	
+mutation . . . . . . . . . . . .	P Near	 000003B7 _TEXT	Length= 000000D7 Public STDCALL
+  loop_18  . . . . . . . . . . .	L Near	 000003DB _TEXT	
+  loop_19  . . . . . . . . . . .	L Near	 00000404 _TEXT	
+  loop_20  . . . . . . . . . . .	L Near	 00000411 _TEXT	
+  defense  . . . . . . . . . . .	L Near	 00000418 _TEXT	
+  loop_21  . . . . . . . . . . .	L Near	 0000041D _TEXT	
+  inverse  . . . . . . . . . . .	L Near	 00000438 _TEXT	
+  inverse_next . . . . . . . . .	L Near	 00000471 _TEXT	
+random_gen . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000052 Public STDCALL
+  gen  . . . . . . . . . . . . .	L Near	 0000002B _TEXT	
+selection  . . . . . . . . . . .	P Near	 00000215 _TEXT	Length= 000000E3 Public STDCALL
+  loop_9 . . . . . . . . . . . .	L Near	 00000225 _TEXT	
+  loop_10  . . . . . . . . . . .	L Near	 0000023B _TEXT	
+  loop_11  . . . . . . . . . . .	L Near	 0000026B _TEXT	
+  loop_12  . . . . . . . . . . .	L Near	 00000283 _TEXT	
+  loop_13  . . . . . . . . . . .	L Near	 000002AD _TEXT	
+start_random_gen . . . . . . . .	P Near	 00000052 _TEXT	Length= 0000004F Public STDCALL
+  start_gen  . . . . . . . . . .	L Near	 0000007D _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+Fsum . . . . . . . . . . . . . .	Text   	 word ptr[ebp - 4]
+a  . . . . . . . . . . . . . . .	Word	 00000000 _DATA	
+locA1  . . . . . . . . . . . . .	Text   	 byte ptr[ebp - 4]
+locA2  . . . . . . . . . . . . .	Text   	 byte ptr[ebp - 3]
+locA3  . . . . . . . . . . . . .	Text   	 byte ptr[ebp - 2]
+locD . . . . . . . . . . . . . .	Text   	 byte ptr[ebp - 1]
+locN . . . . . . . . . . . . . .	Text   	 dword ptr[ebp - 4]
+m  . . . . . . . . . . . . . . .	Word	 00000002 _DATA	
+temp . . . . . . . . . . . . . .	Word	 00000004 _DATA	
+
+	   0 Warnings
+	   0 Errors
